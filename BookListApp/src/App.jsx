@@ -2,6 +2,11 @@ import { useState } from 'react'
 import SignUp from './assets/auth/Signup'
 import Login from './assets/auth/Login'
 import './App.css'
+import routes from './routes/routes'
+import bookListPage from './component/BookListPage'
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([...routes]);
 
 
 function App() {
@@ -9,10 +14,7 @@ function App() {
 
   return (
     <>
-      <div> Fat Boy Wetin Be Your Babe Name</div>
-      <h1>Welcome to react class</h1>
-      <SignUp/> <Login />
-      <button> Sign in </button>
+      <RouterProvider router= {router }/>
     </>
   )
 }

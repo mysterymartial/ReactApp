@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CustomButton from "../../reusable/CustomButton";
-import style from "../styles/login.module.css"
+import CustomButton from "../reuseable/CustomButton";
+import style from "../styles/signup.module.css"
 import { Link } from "react-router-dom";
 
 const Login = ()=>{

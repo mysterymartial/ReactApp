@@ -1,6 +1,7 @@
-import Login from "../assets/auth/Login";
-import SignUp from "../assets/auth/Signup";
-import BookListPage from "../component/BookListPage";
+import Login from "../auth/Login";
+import SignUp from "../auth/SignUp";
+import Counter from "../component/counter"
+
 
 
 const routes = [
@@ -16,11 +17,13 @@ const routes = [
     {
         path: "/",
         element: <SignUp/>
-    }, 
+    },
     {
-    path: "/bookList",
-    element: <BookListPage/>
+        path: "/counter",
+        element:<Counter/>
     }
+
+    
 ]
 
 export default routes;

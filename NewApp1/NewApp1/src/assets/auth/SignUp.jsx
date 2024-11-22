@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import style from "../styles/SignUp.module.css";
-import CustomButton from "../../reusable/CustomButton";
-import { Link, useNavigate } from "react-router-dom";
+import style from "../styles/login.module.css"
+import CustomButton from "../reuseable/CustomButton";
+import {Link,useNavigate} from "react-router-dom";
 
 //hookes
 const SignUp = () => {
