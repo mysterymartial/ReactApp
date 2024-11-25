@@ -1,0 +1,28 @@
+.input{
+    margin-top: 20px;
+    width: 300px;
+    
+    color: black;
+    
+
+}
+.btn{
+    background-color: #73A580;
+    width: 150px;
+    height: 40px;
+    /* color: white; */
+    margin-top: 10px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #d1e5d6;
+}
+a{ 
+    color: black;
+}
+span{
+    display: block;
+    color: white;
+}
+

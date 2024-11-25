@@ -3,7 +3,7 @@ import SignUp from "../assets/auth/Signup";
 import BookListPage from "../component/BookListPage";
 
 
-const routes = [
+export const routes = [
     {
         path: "/Login",
         element: <Login/>
@@ -23,4 +23,3 @@ const routes = [
     }
 ]
 
-export default routes;
