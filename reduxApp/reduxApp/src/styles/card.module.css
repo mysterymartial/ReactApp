@@ -1,0 +1,18 @@
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    }
+.images img{
+    gap: 12px;
+    width: 200px;
+    /* height: 80px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.overview{
+    width: 200px;
+    font-size: 15px;
+
+}

@@ -1,4 +1,6 @@
 .outletContainer{
     display: flex;
-    background-color: red;
+    width: 100%;
+    height: auto;
+    background-color: grey;
 }
